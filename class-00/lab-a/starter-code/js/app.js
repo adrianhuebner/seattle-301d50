@@ -45,6 +45,7 @@ function displayPics(){
     pics[i].src = allProducts[temp].path;
     pics[i].id = allProducts[temp].name;
     allProducts[temp].views += 1;
+    console.log('Hi');
   }
 }
 
